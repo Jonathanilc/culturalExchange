@@ -1956,6 +1956,53 @@ h1, h2, h3, h4, h5, h6 {
   background-image: -ms-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
 }
 
+/*
+############## Banner start here ##################
+*/
+.xmas2018-banner{
+  background-image:url(../img/overlay.png), url(../img/banner/xmas2018.jpg);
+  background-color: #cccccc;
+  background-size: cover;
+  text-align: center;
+}
+
+.xmas2018-banner .height {
+  height: 600px;
+}
+
+@media (max-width: 767px) {
+  .xmas2018-banner .height {
+    height: 400px;
+  }
+}
+
+.xmas2018-banner .xmas2018-banner-content h2 {
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .xmas2018-banner .xmas2018-banner-content h2 br {
+    display: none;
+  }
+  .xmas2018-banner .xmas2018-banner-content p br {
+    display: none;
+  }
+}
+
+.xmas2018-banner .xmas2018-banner-content p {
+  text-align: center;
+  font-size: 16px;
+}
+
+
+
+
+/*
+############## Banner end here ##################
+*/
+
+
 .p1-gradient-color, .counter-left h2, .footer-social a:hover i, .single-footer-widget .bb-btn {
   background: -moz-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
   background: -webkit-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
@@ -2758,4 +2805,16 @@ h6 {
 
 .switch-wrap p {
   margin: 0;
+}
+
+
+/*
+
+*/
+.article-content {
+  text-align: center;
+}
+
+.article-content img{
+  margin: auto;
 }
